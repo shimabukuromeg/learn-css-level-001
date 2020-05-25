@@ -18,3 +18,10 @@ td {
 .date-display {
     margin-left: 20px;
 }
+
+.mounth-number {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;/*角丸*/
+    background: black;/*背景色*/
+}
