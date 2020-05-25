@@ -18,13 +18,20 @@ td {
     vertical-align: bottom;
 }
 
-.mounth {
-    padding-bottom: 15px;
-    font-weight: bold;
-}
-
 .date-display {
     margin-left: 20px;
+}
+
+.year {
+    display: flex;
+    justify-content: center; /* 子要素をflexboxにより中央に配置する */
+    align-items: center;  /* 子要素をflexboxにより中央に配置する */
+}
+
+.year-number {
+    font-weight: bold;
+    color: red;
+    font-size: 24px;
 }
 
 .mounth-circle {
@@ -36,8 +43,16 @@ td {
     flex-direction: column; /* 子要素をflexboxにより縦方向に揃える */
     justify-content: center; /* 子要素をflexboxにより中央に配置する */
     align-items: center;  /* 子要素をflexboxにより中央に配置する */
+    margin-bottom: 10px;
+}
+
+.mounth {
+    padding-bottom: 15px;
+    font-weight: bold;
 }
 
 .mounth-number {
     color: white;
+    font-weight: bold;
+    font-size: 50px;
 }
