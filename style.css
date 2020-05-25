@@ -16,12 +16,18 @@ td {
     height: 100px;
     width: 100px;
     vertical-align: top;
+}
+
+.date-number {
+    margin-left: 5px;
     font-size:  25px;
     font-weight: bold;
 }
 
-td > span {
-    margin: 5px;
+.date-rokuyou {
+    font-size: 10px;
+    vertical-align:text-top;
+    font-weight: normal;
 }
 
 .date-display {
