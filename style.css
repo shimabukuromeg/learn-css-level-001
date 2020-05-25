@@ -16,6 +16,8 @@ td {
     height: 100px;
     width: 100px;
     vertical-align: top;
+    font-size: 30px;
+    font-weight: bold;
 }
 
 .date-display {
